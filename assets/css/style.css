@@ -1,0 +1,154 @@
+body {
+    margin: 0 auto 0 auto;
+    background-image: url("../images/fresh_snow.png");
+    height: 100%;
+}
+
+.container-fluid {
+    width: 80%;
+}
+
+.navbar-default {
+    position: absolute;
+    border-bottom: 3px solid #cccccc;
+    background: #ffffff;
+    width: 100vw;
+    height: 66px;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+}
+
+#name {
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    font-size: 28px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    padding: 22px 20px 40px 20px;
+    width: 250px;
+    margin: 0px;
+}
+
+.navbar-nav {
+    float: right;
+    padding-top: 6px;
+    line-height: 10px;
+}
+
+a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px;
+    padding-right:20px;
+}
+
+.container {
+    margin-top: 100px;
+    width: 77%;
+}
+
+row {
+    
+}
+
+/* main box */
+.col-sm-6 {
+    background: #ffffff;
+    border: 3px solid #dddddd;
+    margin-bottom: 30px;
+    padding: 10px 30px 10px 30px;
+}
+
+.row-1 {
+    font-size: 32px;
+    border-bottom: 3px solid #dddddd;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#profile {
+    width: 220px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+.row-2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;    
+    color: #777777;
+    padding: 20px;
+}
+
+.inline{
+    display: inline;
+}
+
+/* connect with me box */
+.col-sm-4 {
+    display: block;
+    background: #ffffff;
+    padding: 10px;
+    border: 3px solid #dddddd;
+    margin-bottom: 30px;
+}
+
+.icons {
+    width: 80px;
+}
+
+#git {
+    width: 86px;
+}
+
+footer {
+    width: 100vw;
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    height: 60px;
+    bottom: 0;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 18px;
+}
+
+/* portfolio css */
+.col-md-6 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.col-md-12 {
+    display: block;
+    position: absolute;
+    color: white;
+    background: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+/* contact css */
+#submit {
+    background: #4aaaa5;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    margin-top: 10px;
+}
+

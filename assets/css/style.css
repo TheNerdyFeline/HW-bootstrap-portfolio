@@ -32,9 +32,11 @@ body {
 }
 
 .navbar-nav {
+    position: relative;
     float: right;
     padding-top: 6px;
     line-height: 10px;
+    z-index: 10000;
 }
 
 a {
@@ -68,6 +70,7 @@ row {
     font-size: 32px;
     border-bottom: 3px solid #dddddd;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
 }
 
 h2 {
@@ -86,6 +89,10 @@ h2 {
     line-height: 27px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;    
     color: #777777;
+    padding-top: 20px;
+}
+
+.pics {
     padding: 20px;
 }
 
@@ -103,11 +110,13 @@ h2 {
 }
 
 .icons {
-    width: 80px;
+    width: 69px;
+    margin: -8px;
 }
 
 #git {
-    width: 86px;
+    width: 75px;
+    margin: -8px;
 }
 
 footer {
@@ -124,20 +133,23 @@ footer {
 }
 
 /* portfolio css */
-.col-md-6 {
+.col-md-5 {
     position: relative;
     margin-bottom: 20px;
+    padding: 0px;
 }
-
-.col-md-12 {
+ /* div for images in portoflio */
+.caption {
     display: block;
     position: absolute;
     color: white;
     background: #4aaaa5;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px 10px 10px 10px;
     text-align: center;
+    bottom: 10px;
+    width: 100%
 }
 
 /* contact css */
